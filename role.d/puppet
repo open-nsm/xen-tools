@@ -49,7 +49,7 @@ Host git.gnulug.org
     UserKnownHostsFile=/dev/null
 EOF2
 
-chroot ${prefix} /usr/bin/git clone git@git.gnulug.org:open-nsm/puppet.git /etc/puppet
+chroot ${prefix} /usr/bin/git clone git@git.gnulug.org:opennsm/puppet.git /etc/puppet
 
 cat <<EOF1 > ${prefix}/etc/cron.d/puppet
 # Pull latest puppet configuration
